@@ -1,0 +1,22 @@
+{
+  "name": "online-course-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack Online Course Management System (Level 2 - Intermediate)",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "npm run start:backend"
+  },
+  "keywords": [
+    "lms",
+    "course-management",
+    "full-stack",
+    "express",
+    "sqlite",
+    "react",
+    "vite"
+  ],
+  "author": "AcademiaPulse Team",
+  "license": "MIT"
+}
